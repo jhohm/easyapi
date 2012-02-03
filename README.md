@@ -1,4 +1,4 @@
-# Resty [![Build Status](https://secure.travis-ci.org/flatiron/api-easy.png)](http://travis-ci.org/inruntime/easyapi.png)
+# EasyApi
 
 Build quick and simple RESTfull APIs using Node.js and connect
 Based on resty for Node.JS by Alex Angelini <alex.louis.angelini@gmail.com>
