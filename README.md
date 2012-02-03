@@ -1,6 +1,7 @@
-# Resty [![Build Status](https://secure.travis-ci.org/flatiron/api-easy.png)](http://travis-ci.org/SoapyIllusions/resty.png)
+# Resty [![Build Status](https://secure.travis-ci.org/flatiron/api-easy.png)](http://travis-ci.org/inruntime/easyapi.png)
 
 Build quick and simple RESTfull APIs using Node.js and connect
+Based on resty for Node.JS by Alex Angelini <alex.louis.angelini@gmail.com>
 
 ## Description
 
@@ -10,14 +11,14 @@ The resources are all laid out in a simple directory structure which helps build
 
 ## Installation
 
-    npm install resty
+    npm install easyapi
 
 ## Usage
 
 Simply require the middleware and tell connect to use it:
 
     var connect = require('connect');
-    var resty = require('resty');
+    var resty = require('easyapi');
 
     var app = connect.createServer();
     app.use(resty.middleware('/path/to/resources/folder'));
