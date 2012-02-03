@@ -1,0 +1,151 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+info using npm@1.1.0-beta-10
+info using node@v0.6.7
+verbose config file /Users/mini/.npmrc
+verbose config file /usr/local/etc/npmrc
+verbose config file /usr/local/lib/node_modules/npm/npmrc
+verbose publish [ '.' ]
+verbose caching /Users/mini/nodejs/easyapi/package.json
+verbose loadDefaults easyapi@0.0.1
+info prepublish easyapi@0.0.1
+verbose cache add [ '.', null ]
+silly cache add: name, spec, args [ undefined, '.', [ '.', null ] ]
+verbose parsed url { pathname: '.', path: '.', href: '.' }
+verbose caching package.json
+verbose loadDefaults easyapi@0.0.1
+verbose pack /Users/mini/nodejs/easyapi
+verbose pack /Users/mini/nodejs/easyapi /var/folders/4h/4hrZLwRiEdC4XgzeidH3RU+++TI/-Tmp-/npm-1328285689358/1328285689358-0.08648008201271296/tmp.tgz
+silly makeList /Users/mini/nodejs/easyapi
+silly dir, dirLen [ '/Users/mini/nodejs/easyapi', 27 ]
+verbose tarball /var/folders/4h/4hrZLwRiEdC4XgzeidH3RU+++TI/-Tmp-/npm-1328285689358/1328285689358-0.08648008201271296/tmp.tgz
+verbose parent /Users/mini/nodejs/easyapi
+verbose mkdir (expected) error ENOENT, no such file or directory '/var/folders/4h/4hrZLwRiEdC4XgzeidH3RU+++TI/-Tmp-/npm-1328285689358/1328285689358-0.08648008201271296/___package.npm'
+verbose mkdir done: /var/folders/4h/4hrZLwRiEdC4XgzeidH3RU+++TI/-Tmp-/npm-1328285689358/1328285689358-0.08648008201271296/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /var/folders/4h/4hrZLwRiEdC4XgzeidH3RU+++TI/-Tmp-/npm-1328285689358/1328285689358-0.08648008201271296/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+silly asyncMap in gTP /var/folders/4h/4hrZLwRiEdC4XgzeidH3RU+++TI/-Tmp-/npm-1328285689358/1328285689358-0.08648008201271296/___package.npm/easyapi
+silly asyncMap in gTP /var/folders/4h/4hrZLwRiEdC4XgzeidH3RU+++TI/-Tmp-/npm-1328285689358/1328285689358-0.08648008201271296/___package.npm/easyapi/.npmignore
+silly asyncMap in gTP /var/folders/4h/4hrZLwRiEdC4XgzeidH3RU+++TI/-Tmp-/npm-1328285689358/1328285689358-0.08648008201271296/___package.npm/easyapi/.travis.yml
+silly asyncMap in gTP /var/folders/4h/4hrZLwRiEdC4XgzeidH3RU+++TI/-Tmp-/npm-1328285689358/1328285689358-0.08648008201271296/___package.npm/easyapi/easyapi.js
+silly asyncMap in gTP /var/folders/4h/4hrZLwRiEdC4XgzeidH3RU+++TI/-Tmp-/npm-1328285689358/1328285689358-0.08648008201271296/___package.npm/easyapi/LICENSE
+silly asyncMap in gTP /var/folders/4h/4hrZLwRiEdC4XgzeidH3RU+++TI/-Tmp-/npm-1328285689358/1328285689358-0.08648008201271296/___package.npm/easyapi/package.json
+silly asyncMap in gTP /var/folders/4h/4hrZLwRiEdC4XgzeidH3RU+++TI/-Tmp-/npm-1328285689358/1328285689358-0.08648008201271296/___package.npm/easyapi/README.md
+silly asyncMap in gTP /var/folders/4h/4hrZLwRiEdC4XgzeidH3RU+++TI/-Tmp-/npm-1328285689358/1328285689358-0.08648008201271296/___package.npm/easyapi/lib
+silly asyncMap in gTP /var/folders/4h/4hrZLwRiEdC4XgzeidH3RU+++TI/-Tmp-/npm-1328285689358/1328285689358-0.08648008201271296/___package.npm/easyapi/lib/easyapi.js
+silly asyncMap in gTP /var/folders/4h/4hrZLwRiEdC4XgzeidH3RU+++TI/-Tmp-/npm-1328285689358/1328285689358-0.08648008201271296/___package.npm/easyapi/tests
+silly asyncMap in gTP /var/folders/4h/4hrZLwRiEdC4XgzeidH3RU+++TI/-Tmp-/npm-1328285689358/1328285689358-0.08648008201271296/___package.npm/easyapi/tests/connectIntegration-test.js
+silly asyncMap in gTP /var/folders/4h/4hrZLwRiEdC4XgzeidH3RU+++TI/-Tmp-/npm-1328285689358/1328285689358-0.08648008201271296/___package.npm/easyapi/tests/readResources-test.js
+silly asyncMap in gTP /var/folders/4h/4hrZLwRiEdC4XgzeidH3RU+++TI/-Tmp-/npm-1328285689358/1328285689358-0.08648008201271296/___package.npm/easyapi/example
+silly asyncMap in gTP /var/folders/4h/4hrZLwRiEdC4XgzeidH3RU+++TI/-Tmp-/npm-1328285689358/1328285689358-0.08648008201271296/___package.npm/easyapi/example/server.js
+silly asyncMap in gTP /var/folders/4h/4hrZLwRiEdC4XgzeidH3RU+++TI/-Tmp-/npm-1328285689358/1328285689358-0.08648008201271296/___package.npm/easyapi/example/resources
+silly asyncMap in gTP /var/folders/4h/4hrZLwRiEdC4XgzeidH3RU+++TI/-Tmp-/npm-1328285689358/1328285689358-0.08648008201271296/___package.npm/easyapi/example/resources/songs
+silly asyncMap in gTP /var/folders/4h/4hrZLwRiEdC4XgzeidH3RU+++TI/-Tmp-/npm-1328285689358/1328285689358-0.08648008201271296/___package.npm/easyapi/example/resources/songs/songs.js
+silly asyncMap in gTP /var/folders/4h/4hrZLwRiEdC4XgzeidH3RU+++TI/-Tmp-/npm-1328285689358/1328285689358-0.08648008201271296/___package.npm/easyapi/example/resources/users
+silly asyncMap in gTP /var/folders/4h/4hrZLwRiEdC4XgzeidH3RU+++TI/-Tmp-/npm-1328285689358/1328285689358-0.08648008201271296/___package.npm/easyapi/example/resources/users/users.js
+silly asyncMap in gTP /var/folders/4h/4hrZLwRiEdC4XgzeidH3RU+++TI/-Tmp-/npm-1328285689358/1328285689358-0.08648008201271296/___package.npm/easyapi/example/resources/users/contacts
+silly asyncMap in gTP /var/folders/4h/4hrZLwRiEdC4XgzeidH3RU+++TI/-Tmp-/npm-1328285689358/1328285689358-0.08648008201271296/___package.npm/easyapi/example/resources/users/contacts/contacts.js
+verbose gunzed /var/folders/4h/4hrZLwRiEdC4XgzeidH3RU+++TI/-Tmp-/npm-1328285689358/1328285689358-0.08648008201271296/___package.npm/easyapi
+verbose rm'ed /var/folders/4h/4hrZLwRiEdC4XgzeidH3RU+++TI/-Tmp-/npm-1328285689358/1328285689358-0.08648008201271296/package
+verbose renamed [ '/var/folders/4h/4hrZLwRiEdC4XgzeidH3RU+++TI/-Tmp-/npm-1328285689358/1328285689358-0.08648008201271296/___package.npm/easyapi',
+verbose renamed   '/var/folders/4h/4hrZLwRiEdC4XgzeidH3RU+++TI/-Tmp-/npm-1328285689358/1328285689358-0.08648008201271296/package' ]
+verbose caching /var/folders/4h/4hrZLwRiEdC4XgzeidH3RU+++TI/-Tmp-/npm-1328285689358/1328285689358-0.08648008201271296/package/package.json
+verbose loadDefaults easyapi@0.0.1
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache /var/folders/4h/4hrZLwRiEdC4XgzeidH3RU+++TI/-Tmp-/npm-1328285689358/1328285689358-0.08648008201271296/package/package.json
+verbose pack /var/folders/4h/4hrZLwRiEdC4XgzeidH3RU+++TI/-Tmp-/npm-1328285689358/1328285689358-0.08648008201271296/package
+verbose pack /var/folders/4h/4hrZLwRiEdC4XgzeidH3RU+++TI/-Tmp-/npm-1328285689358/1328285689358-0.08648008201271296/package /Users/mini/.npm/easyapi/0.0.1/package.tgz
+silly makeList /var/folders/4h/4hrZLwRiEdC4XgzeidH3RU+++TI/-Tmp-/npm-1328285689358/1328285689358-0.08648008201271296/package
+silly dir, dirLen [ '/var/folders/4h/4hrZLwRiEdC4XgzeidH3RU+++TI/-Tmp-/npm-1328285689358/1328285689358-0.08648008201271296/package',
+silly dir, dirLen   110 ]
+verbose tarball /Users/mini/.npm/easyapi/0.0.1/package.tgz
+verbose parent /var/folders/4h/4hrZLwRiEdC4XgzeidH3RU+++TI/-Tmp-/npm-1328285689358/1328285689358-0.08648008201271296/package
+verbose mkdir (expected) error ENOENT, no such file or directory '/Users/mini/.npm/easyapi/0.0.1/___package.npm'
+verbose mkdir done: /Users/mini/.npm/easyapi/0.0.1/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/mini/.npm/easyapi/0.0.1/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+silly asyncMap in gTP /Users/mini/.npm/easyapi/0.0.1/___package.npm/package
+silly asyncMap in gTP /Users/mini/.npm/easyapi/0.0.1/___package.npm/package/.npmignore
+silly asyncMap in gTP /Users/mini/.npm/easyapi/0.0.1/___package.npm/package/.travis.yml
+silly asyncMap in gTP /Users/mini/.npm/easyapi/0.0.1/___package.npm/package/easyapi.js
+silly asyncMap in gTP /Users/mini/.npm/easyapi/0.0.1/___package.npm/package/LICENSE
+silly asyncMap in gTP /Users/mini/.npm/easyapi/0.0.1/___package.npm/package/package.json
+silly asyncMap in gTP /Users/mini/.npm/easyapi/0.0.1/___package.npm/package/README.md
+silly asyncMap in gTP /Users/mini/.npm/easyapi/0.0.1/___package.npm/package/lib
+silly asyncMap in gTP /Users/mini/.npm/easyapi/0.0.1/___package.npm/package/lib/easyapi.js
+silly asyncMap in gTP /Users/mini/.npm/easyapi/0.0.1/___package.npm/package/tests
+silly asyncMap in gTP /Users/mini/.npm/easyapi/0.0.1/___package.npm/package/tests/connectIntegration-test.js
+silly asyncMap in gTP /Users/mini/.npm/easyapi/0.0.1/___package.npm/package/tests/readResources-test.js
+silly asyncMap in gTP /Users/mini/.npm/easyapi/0.0.1/___package.npm/package/example
+silly asyncMap in gTP /Users/mini/.npm/easyapi/0.0.1/___package.npm/package/example/server.js
+silly asyncMap in gTP /Users/mini/.npm/easyapi/0.0.1/___package.npm/package/example/resources
+silly asyncMap in gTP /Users/mini/.npm/easyapi/0.0.1/___package.npm/package/example/resources/songs
+silly asyncMap in gTP /Users/mini/.npm/easyapi/0.0.1/___package.npm/package/example/resources/songs/songs.js
+silly asyncMap in gTP /Users/mini/.npm/easyapi/0.0.1/___package.npm/package/example/resources/users
+silly asyncMap in gTP /Users/mini/.npm/easyapi/0.0.1/___package.npm/package/example/resources/users/users.js
+silly asyncMap in gTP /Users/mini/.npm/easyapi/0.0.1/___package.npm/package/example/resources/users/contacts
+silly asyncMap in gTP /Users/mini/.npm/easyapi/0.0.1/___package.npm/package/example/resources/users/contacts/contacts.js
+verbose gunzed /Users/mini/.npm/easyapi/0.0.1/___package.npm/package
+verbose rm'ed /Users/mini/.npm/easyapi/0.0.1/package
+verbose renamed [ '/Users/mini/.npm/easyapi/0.0.1/___package.npm/package',
+verbose renamed   '/Users/mini/.npm/easyapi/0.0.1/package' ]
+verbose caching /Users/mini/.npm/easyapi/0.0.1/package/package.json
+verbose loadDefaults easyapi@0.0.1
+silly updated sha bytes 4308
+info shasum fcec1b7dc5edaf0be29373170de6fa946ae335ca
+info shasum /Users/mini/.npm/easyapi/0.0.1/package.tgz
+verbose from cache /Users/mini/.npm/easyapi/0.0.1/package/package.json
+verbose chmod /Users/mini/.npm/easyapi/0.0.1/package.tgz 644
+verbose chown [ '/Users/mini/.npm/easyapi/0.0.1/package.tgz', 501, 20 ]
+silly publish { name: 'easyapi',
+silly publish   description: 'Build quick and simple RESTfull APIs using Node.js and connect. Based on resty by Alex Angelini <alex.louis.angelini@gmail.com>',
+silly publish   keywords: [ 'rest', 'node', 'connect', 'simple' ],
+silly publish   version: '0.0.1',
+silly publish   repository: { type: 'git', url: 'git://github.com/inruntime/easyapi.git' },
+silly publish   author: { name: 'Paulius Uza', email: 'pauliusuza@gmail.com' },
+silly publish   main: 'easyapi',
+silly publish   engines: { node: '>=0.4.10' },
+silly publish   scripts: { test: 'vows ./tests/*' },
+silly publish   devDependencies: { connect: '>= 1.8.5', vows: '>= 0.6.1', request: '>= 2.9.3' },
+silly publish   licenses: 
+silly publish    [ { type: 'MIT',
+silly publish        url: 'https://github.com/inruntime/easyapi/raw/master/LICENSE' } ],
+silly publish   _npmUser: { name: 'pauliusuza', email: 'pauliusuza@gmail.com' },
+silly publish   _id: 'easyapi@0.0.1',
+silly publish   dependencies: {},
+silly publish   _engineSupported: true,
+silly publish   _npmVersion: '1.1.0-beta-10',
+silly publish   _nodeVersion: 'v0.6.7',
+silly publish   _defaultsLoaded: true,
+silly publish   dist: 
+silly publish    { shasum: 'fcec1b7dc5edaf0be29373170de6fa946ae335ca',
+silly publish      tarball: 'http://registry.npmjs.org/easyapi/-/easyapi-0.0.1.tgz' } }
+verbose raw, before any munging easyapi
+verbose url resolving [ 'https://registry.npmjs.org/', './easyapi' ]
+verbose url resolved https://registry.npmjs.org/easyapi
+http PUT https://registry.npmjs.org/easyapi
+http 409 https://registry.npmjs.org/easyapi
+verbose raw, before any munging easyapi
+verbose url resolving [ 'https://registry.npmjs.org/', './easyapi' ]
+verbose url resolved https://registry.npmjs.org/easyapi
+http GET https://registry.npmjs.org/easyapi
+http 200 https://registry.npmjs.org/easyapi
+info Already published easyapi@0.0.1
+verbose uploading bin dists []
+ERR! publish fail Cannot publish over existing version.
+ERR! publish fail Bump the 'version' field, set the --force flag, or
+ERR! publish fail     npm unpublish 'easyapi@0.0.1'
+ERR! publish fail and try again
+ERR! 
+ERR! System Darwin 10.8.0
+ERR! command "node" "/usr/local/bin/npm" "publish"
+ERR! cwd /Users/mini/nodejs/easyapi
+ERR! node -v v0.6.7
+ERR! npm -v 1.1.0-beta-10
+ERR! code EPUBLISHCONFLICT
+ERR! message publish fail
+verbose exit [ 1, true ]
