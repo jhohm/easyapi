@@ -1,7 +1,7 @@
 # EasyApi
 
-Build quick and simple RESTfull APIs using Node.js and connect
-Based on resty for Node.JS by Alex Angelini <alex.louis.angelini@gmail.com>
+Simple RESTfull API for Node.js and connect with pluggable authentication support
+Coded by Paulius Uza <pauliusuza@gmail.com> for InRuntime, based on resty for Node.JS by Alex Angelini <alex.louis.angelini@gmail.com>
 
 ## Description
 
@@ -68,7 +68,7 @@ An over-simplified user resource may look like this:
 
     module.exports = Users;
 
-Users.Resource will be called if the url was `/users/123` and Users.Collection will be called if the url was `/users/`.
+Users.Resource in v1 folder will be called if the url was `/v1/users/123` and Users.Collection will be called if the url was `/v1/users/`.
 
 ## Authentication
 
