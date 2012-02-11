@@ -1,6 +1,7 @@
 # EasyApi
 
-Simple RESTfull API for Node.js and connect with pluggable authentication support.
+Simple RESTfull API for Node.js and connect with API versioning and pluggable authentication support.
+
 Coded by Paulius Uza <pauliusuza@gmail.com> for InRuntime, based on resty for Node.JS by Alex Angelini <alex.louis.angelini@gmail.com>
 
 ## Description
@@ -21,7 +22,8 @@ Simply require the middleware and tell connect to use it:
     var easyapi = require('easyapi');
 
     var app = connect.createServer();
-    app.use(easyapi.middleware('/path/to/resources/folder', 'v1')); // accepts multiple version strings with ['v1', 'v2']
+    // accepts multiple version strings with ['v1', 'v2'] as a second parameter
+    app.use(easyapi.middleware('/path/to/resources/folder', 'v1')); 
     app.listen(8080);
 
 Remember to add middleware for authentication and file serving, as easyapi only provides the routing for the API resources.
