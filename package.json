@@ -2,7 +2,7 @@
   "name": "easyapi",
   "description": "Build quick and simple RESTfull APIs using Node.js and connect. Based on resty by Alex Angelini <alex.louis.angelini@gmail.com>",
   "keywords": ["rest", "node", "connect", "simple"],
-  "version": "0.1.0",
+  "version": "0.2.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/inruntime/easyapi"
