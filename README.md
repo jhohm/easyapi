@@ -5,7 +5,7 @@ Based on resty for Node.JS by Alex Angelini <alex.louis.angelini@gmail.com>
 
 ## Description
 
-Resty is a connect middleware which let's you build a simple REST interface for your application. I have found it especially useful when building single page web apps which need a server-side API.
+EasyApi is a connect middleware which let's you build a simple REST interface for your application. I have found it especially useful when building single page web apps which need a server-side API.
 
 The resources are all laid out in a simple directory structure which helps build a clean perspective of how people can interact with your API.
 
@@ -21,10 +21,10 @@ Simply require the middleware and tell connect to use it:
     var easyapi = require('easyapi');
 
     var app = connect.createServer();
-    app.use(easyapi.middleware('/path/to/resources/folder', ['v1', 'v2']));
+    app.use(easyapi.middleware('/path/to/resources/folder', 'v1')); // accepts multiple version strings with ['v1', 'v2']
     app.listen(8080);
 
-Remember to add middleware for authentication and file serving, as resty only provides the routing for the API resources.
+Remember to add middleware for authentication and file serving, as easyapi only provides the routing for the API resources.
 
 ## Resource Folder
 
@@ -40,7 +40,7 @@ Here is what an example resource folder may look like:
           └── users.js
       
 
-The parent tree contains a file `/api.js` containing documentation of the available API versions, example:
+The parent tree contains a file `/api.js` containing documentation of the available API versions. The function names have to match the API versions, for example:
 
     exports.v1 = function v1(req, res, next) {
       res.end('these are the docs for v1');
