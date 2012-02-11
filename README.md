@@ -1,6 +1,6 @@
 # EasyApi
 
-Simple RESTfull API for Node.js and connect with pluggable authentication support
+Simple RESTfull API for Node.js and connect with pluggable authentication support.
 Coded by Paulius Uza <pauliusuza@gmail.com> for InRuntime, based on resty for Node.JS by Alex Angelini <alex.louis.angelini@gmail.com>
 
 ## Description
