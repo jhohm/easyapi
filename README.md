@@ -60,3 +60,16 @@ An over-simplified user resource may look like this:
     module.exports = Users;
 
 Users.Resource will be called if the url was `/users/123` and Users.Collection will be called if the url was `/users/`.
+
+## Authentication
+
+To add authentication include auth parameter in either Collection or Resource, like so:
+
+    Collection: {
+      auth: true,
+      get: function(callback) {
+        callback(null, {all: 'users'});
+      }
+    }
+
+Authenticate your users using the method of your choice and set api_auth parameter in the request object to true.
