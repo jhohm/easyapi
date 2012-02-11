@@ -40,11 +40,14 @@ Here is what an example resource folder may look like:
           └── users.js
       
 
-The parent tree contains a file `/api.js` containing documentation of the available API versions. The function names have to match the API versions, for example:
+The parent tree contains a file `/api.js` for serving documentation of the available API versions. The function names inside `/api.js` have to match the version folders contained within the Resource Folder, for example:
 
+    // matches the v1 folder
     exports.v1 = function v1(req, res, next) {
       res.end('these are the docs for v1');
     };
+
+This documentation placeholder is then accessible by navigating to `/v1`, customize at will.
 
 The parent tree also contains a list of folders for each version of the API. Inside each version folder, a file with the same name as the parent directory will contain the Resources methods and any subfolders are nested resources.
 
