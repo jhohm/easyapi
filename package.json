@@ -1,13 +1,13 @@
 {
   "name": "easyapi",
-  "description": "Build quick and simple RESTfull APIs using Node.js and connect. Based on resty by Alex Angelini <alex.louis.angelini@gmail.com>",
+  "description": "Build quick and simple RESTfull APIs using Node.js and connect. Based on resty by Alex Angelini <alex.louis.angelini@gmail.com> (forked from Paulius Uza <pauliusuza@gmail.com>)",
   "keywords": ["rest", "node", "connect", "simple"],
   "version": "0.2.1",
   "repository": {
     "type": "git",
-    "url": "git://github.com/inruntime/easyapi"
+    "url": "git://github.com/jhohm/easyapi"
   },
-  "author": "Paulius Uza <pauliusuza@gmail.com>",
+  "author": "John Keith Hohm <john@hohm.net>",
   "main": "easyapi",
   "engines": {
     "node": ">=0.4.10"
@@ -20,7 +20,7 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/inruntime/easyapi/raw/master/LICENSE"
+      "url": "https://github.com/jhohm/easyapi/raw/master/LICENSE"
     }
   ]
 }
